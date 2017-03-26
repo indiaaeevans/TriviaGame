@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<!-- Reset -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+	<!-- Bootstrap / Bootswatch -->
+    <link rel="stylesheet" href="assets/css/sandstone.css">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Lobster|Poppins" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+
+<div class="row">
+	<div class="col-lg-4 col-md-4 col-sm-12">
+		<header">
+  			<h1>Color<br>Theory<br>Trivia</h1>
+		</header>
+
+		<!-- TIMER DISPLAY -->
+		<div id="display">00:00</div>
+
+		<!-- BUTTON TO START THE GAME -->
+      	<a id="start" href="#" class="btn btn-success">Test Your Knowledge!</a>
+	</div><!-- close the column -->
+
+	<div class="col-lg-8 col-md-8 col-sm-12" id="wrapper">
+		
+		<h4 class="questions"><!-- OUR JAVASCRIPT WILL INSERT A QUESTION HERE --></h4>
+
+    	<ul id="answerChoices">     
+		<!-- OUR JAVASCRIPT WILL INSERT ANSWER CHOICES HERE -->
+    	</ul> 
+
+
+    	<!-- DISPLAYS WHEN CORRECT ANSWER IS SELECTED -->
+	<h4 id="message">
+	</h4>
+	</div><!-- close the column and wrapper-->
+
+
+</div> <!-- close the row -->
+
+<!-- PROGRESS BAR -->
+<!-- <div class="row">
+	<div class="progress progress-striped" id="progressbar">
+  		<div class="progress-bar progress-bar-info" style="width: 10%"></div>
+	</div>
+</div> -->
+<!-- close the row -->
+
+</div><!-- close the container -->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
